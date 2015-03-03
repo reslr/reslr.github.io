@@ -1,0 +1,70 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: reSLR LLC
+description: "Expert WordPress and Drupal team in the New York metro area. Each engineer has over 15 years of experience, we can help your project."
+analytics: UA-40778001-10
+baseurl: "" #important: start with /
+url: "https://reslr.com"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#008c83" 
+  primary_rgb: "0,140,131" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  secondary: "#384452" #"#33004D"
+  link: "#26a9e0"
+  link_hover: "#357ebd"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+  
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/company/reslr
+  - title: twitter
+    url: https://twitter.com/matthewdorman
+  - title: github
+    url: https://github.com/reslr
+    
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+email: support@reslr.com
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+    
+# Members information. Shown on About page.
+members:
+  - name: Matthew Dorman
+    position: Principle
+    text: Over 16 years of technology experience implementing successful transitions for multiple high profile digital properties. Building strong relationships with strategic partners and consensus across multiple organizational levels.
+    img: team01.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:mdorman@reslr.com
+      - title: twitter
+        url: https://twitter.com/matthewdorman
+    
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: Tag Sell It
+    img: client01.png
+  - name: Hitches Unlimited
+    img: client02.png
+  - name: Halo
+    img: client03.png
+    
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "We are a team of highly experienced technologists delivering exceptional results to our clients."
+
+# Testimonial content. Shown on Home and About page. 
+testimonial:
+    message: "I don't always hire consultants, but when I do, I hire [reSLR]."
+    author: David Dana
+    position: Sr. Director of Project Management at Showtime Networks

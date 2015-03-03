@@ -1,0 +1,30 @@
+---
+layout: contact
+title: Thanks for reaching out!
+permalink: /thank-you/
+---
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
+            <h3>Email us directly at <a href="mailto:support@reslr.com" alt="contact reSLR">support@reslr.com</a> if you need immediate help.</h3>
+
+         </div><! --/col-lg-8 -->
+
+        <div class="col-lg-4">
+            <h4>Our Info</h4>
+            <div class="hline"></div>
+            <p>
+                {% for line in site.address.first.lines %}
+                    {{ line }} <br>
+                {% endfor %}
+            </p>
+            <p>
+                Email: {{ site.email }}
+                {% if site.tel %}<br/>Tel: {{ site.tel }}{% endif %}
+            </p>
+            <p>We help you create amazing digital products.</p>
+            <p><br/><a href="/contact/" class="btn btn-theme">Hire us</a></p>
+        </div>
+    </div><! --/row -->
+</div><! --/container -->
