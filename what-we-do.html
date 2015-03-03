@@ -1,0 +1,38 @@
+---
+layout: contact
+title: What We Do
+permalink: /what-we-do/
+---
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
+            <h3>Performance</h3>
+            <p>From audits to tuning systems, our infrastructure and front-end experts can help.</p>
+            <h4>Site Development</h4>
+            <p>Each engineer has over 15 years of experience building high traffic digital properties.</p>
+            <h4>Technical Strategy</h4>
+            <p>Our experience implementing solutions can help you make those tough decisions.</p>
+
+            <p><br/><a href="/contact/" class="btn btn-theme">Hire us</a></p>
+
+
+         </div><! --/col-lg-8 -->
+
+        <div class="col-lg-4">
+            <h4>Our Info</h4>
+            <div class="hline"></div>
+            <p>
+                {% for line in site.address.first.lines %}
+                    {{ line }} <br>
+                {% endfor %}
+            </p>
+            <p>
+                Email: {{ site.email }}
+                {% if site.tel %}<br/>Tel: {{ site.tel }}{% endif %}
+            </p>
+            <p>We help you create amazing digital products.</p>
+            <p><br/><a href="/contact/" class="btn btn-theme">Hire us</a></p>
+        </div>
+    </div><! --/row -->
+</div><! --/container -->

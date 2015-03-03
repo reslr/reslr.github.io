@@ -1,0 +1,35 @@
+                <!-- Yeah, we know the following is crappy code, but our CRM is well old... -->
+                <div id='crmWebToEntityForm'>
+                  <form role="form" action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1358606000000078054 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatery()' accept-charset='UTF-8'>
+                    <input type='text' style='display:none;' name='xnQsjsdp' value='94tx6pSijUNthYo@kRl79w$$'/>
+                    <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                    <input type='text' style='display:none;' name='xmIwtLD' value='KRtkqZF8s3BQ01OELDSTAZcJ2f7gXSBa'/>
+                    <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='/>
+                    <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;reslr.com&#x2f;thank-you&#x2f;' />
+
+                    <div class="form-group">
+                      <label for="Company">Company</label>
+                      <input type='text' class="form-control" maxlength='100' name='Company' id="Company" placeholder="Enter Company Name" />
+                    </div>
+                    <div class="form-group">
+                      <label for="FirstName">First Name</label>
+                      <input type='text' class="form-control" name='First Name' id="FirstName" placeholder="Enter Your First Name" />
+                    </div>
+                    <div class="form-group">
+                      <label for="LastName">Last Name<span style='color:red;'>*</span></label>
+                      <input type='text' class="form-control" maxlength='80' name='Last Name' id="LastName" placeholder="Enter Your Last Name" />
+                    </div>
+                    <div class="form-group">
+                      <label for="Email">Email<span style='color:red;'>*</span></label>
+                      <input type='email' class="form-control" maxlength='100' name='Email' id="Email" placeholder="Enter Your Email Address" />
+                    </div>
+                    <div class="form-group">
+                      <label for="Description">Message</label>
+                      <textarea class="form-control" id="Description" name='Description' rows="3"></textarea>
+                    </div>
+                    <input type='submit' value='Submit' class="btn btn-theme"/>
+                  </form>
+                </div>
+
+<!-- Yeah, we know same excuse as above -->
+<script> var mndFileds=new Array('Last Name','Email');var fldLangVal=new Array('Last Name','Email');function reloadImg(){if(document.getElementById('imgid').src.indexOf('&d') !== -1 ){document.getElementById('imgid').src=document.getElementById('imgid').src.substring(0,document.getElementById('imgid').src.indexOf('&d'))+'&d'+new Date().getTime();}else{document.getElementById('imgid').src = document.getElementById('imgid').src+'&d'+new Date().getTime();}}function checkMandatery(){var name='';var email='';for(i=0;i<mndFileds.length;i++){ var fieldObj=document.forms['WebToLeads1358606000000078054'][mndFileds[i]];if(fieldObj) {if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0){alert(fldLangVal[i] +' cannot be empty'); fieldObj.focus(); return false;}else if(fieldObj.nodeName=='SELECT'){if(fieldObj.options[fieldObj.selectedIndex].value=='-None-'){alert(fldLangVal[i] +' cannot be none'); fieldObj.focus(); return false;}} else if(fieldObj.type =='checkbox'){ if (fieldObj.checked == false){     alert('Please accept  '+fldLangVal[i]); fieldObj.focus();return false;}}try{if(fieldObj.name == 'Last Name'){name = fieldObj.value;}}catch(e){}}}try{if($zoho){var firstnameObj = document.forms['WebToLeads1358606000000078054']['First Name'];if(firstnameObj){name = firstnameObj.value +' '+name;}$zoho.salesiq.visitor.name(name);var emailObj = document.forms['WebToLeads1358606000000078054']['Email'];if(emailObj){email = emailObj.value;$zoho.salesiq.visitor.email(email);}}}catch(e){}}</script><script> var mndFileds=new Array('Last Name','Email');var fldLangVal=new Array('Last Name','Email');function reloadImg(){if(document.getElementById('imgid').src.indexOf('&d') !== -1 ){document.getElementById('imgid').src=document.getElementById('imgid').src.substring(0,document.getElementById('imgid').src.indexOf('&d'))+'&d'+new Date().getTime();}else{document.getElementById('imgid').src = document.getElementById('imgid').src+'&d'+new Date().getTime();}}function checkMandatery(){var name='';var email='';for(i=0;i<mndFileds.length;i++){ var fieldObj=document.forms['WebToLeads1358606000000078054'][mndFileds[i]];if(fieldObj) {if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0){alert(fldLangVal[i] +' cannot be empty'); fieldObj.focus(); return false;}else if(fieldObj.nodeName=='SELECT'){if(fieldObj.options[fieldObj.selectedIndex].value=='-None-'){alert(fldLangVal[i] +' cannot be none'); fieldObj.focus(); return false;}} else if(fieldObj.type =='checkbox'){ if (fieldObj.checked == false){     alert('Please accept  '+fldLangVal[i]); fieldObj.focus();return false;}}try{if(fieldObj.name == 'Last Name'){name = fieldObj.value;}}catch(e){}}}try{if($zoho){var firstnameObj = document.forms['WebToLeads1358606000000078054']['First Name'];if(firstnameObj){name = firstnameObj.value +' '+name;}$zoho.salesiq.visitor.name(name);var emailObj = document.forms['WebToLeads1358606000000078054']['Email'];if(emailObj){email = emailObj.value;$zoho.salesiq.visitor.email(email);}}}catch(e){}}</script>
