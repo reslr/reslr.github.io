@@ -12,30 +12,23 @@ layout: default
             <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
             <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
-<!-- AddThis Button BEGIN -->
-<div class="addthis_toolbox addthis_default_style ">
-<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-<a class="addthis_button_tweet"></a>
-<a class="addthis_button_pinterest_pinit"></a>
-<a class="addthis_counter addthis_pill_style"></a>
-</div>
-<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5171aba83f45a566"></script>
-<!-- AddThis Button END -->
+            <!-- AddThis Button BEGIN -->
+            <h6>SHARE:</h6>
+            <div class="addthis_toolbox addthis_default_style ">
+            <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+            <a class="addthis_button_tweet"></a>
+            <a class="addthis_button_pinterest_pinit"></a>
+            <a class="addthis_counter addthis_pill_style"></a>
+            </div>
+            <!-- AddThis Button END -->
               
             {{ content }}
 
-            <div class="spacing"></div>
-            <!-- <h6>SHARE:</h6>
-            <p class="share">
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-tumblr"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>		 		
-            </p> -->
         </div><! --/col-lg-8 -->
         
         {% include sidebar.html %}
 
     </div><! --/row -->
 </div><! --/container -->
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5171aba83f45a566"></script>
