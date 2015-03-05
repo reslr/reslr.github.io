@@ -29,9 +29,11 @@ social:
   - title: linkedin
     url: https://www.linkedin.com/company/reslr
   - title: twitter
-    url: https://twitter.com/matthewdorman
+    url: https://twitter.com/reslr_
   - title: github
     url: https://github.com/reslr
+  - title: rss
+    url: /feed.xml
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 email: support@reslr.com
