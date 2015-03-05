@@ -22,7 +22,7 @@ When you hired your team were you looking for keywords like: "Enters time-sheets
 Give your team an environment to express their thoughts, differences and opinions on all kinds of topics; when they need support be there for them. If you have an overly introverted team, don't assume by taking control of every meeting you will some how put a spark in one/all of them to follow your lead. Show each of them they matter, don't take the limelight and find ways to encourage individuals to lead discussions you know they have experience in.
 
 ###Frequent Feedback
-While we all can appreciate some level of criticism when warranted, it needs to be consistent, fair, relatively frequent and generally confidential to be constructive. Wether positive or negative, if feedback isn't given then people can not grow.
+While we all can appreciate some level of criticism when warranted, it needs to be consistent, fair, relatively frequent and generally confidential to be constructive. Whether positive or negative, if feedback isn't given then people cannot grow.
 
 ##Hire Diversely
 Make a point to evaluate your teams diversity levels from cultural, ethnical, <b>gender</b> and even political. While I am sure there are studies out there, in my opinion just as you want to balance your senior and junior members having a more diverse team helps immeasurably. In NYC, Etsy seems to be on the right track for [hiring female engineers][etsy] and I'm sure others will follow (maybe even Silicon Valley?).
