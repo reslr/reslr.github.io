@@ -1,2 +1,2 @@
 # reslr.github.io
-reSLR LLC website
+reslr.com website
