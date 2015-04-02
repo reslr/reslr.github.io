@@ -1,0 +1,44 @@
+---
+layout: contact
+title: Careers
+permalink: /careers/
+---
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
+            <h1>We're Hiring</h1>
+            <div class="hline"></div>
+                <p>Rather than list out a bunch of requirements limiting the types of candidates willing to submit an application we'll make this simple. You need experience, lots of it across many different technologies would be best. If you don't have 15+ years of web development that's fine, we'll update our homepage for the right person! This will not be your typical application process.</p>
+
+                <p>As you can tell, we are a technology services/consulting company working to help our clients build their amazing products. While some of our work is on site, we are looking to hire all throughout the country.</p>
+
+                <p><b>Key benefits will include:</b></p>
+                <ul>
+                    <li>Flex time each week for open source projects</li>
+                    <li>Work from anywhere</li>
+                    <li>Shiny new laptop every other year</li>
+                    <li>Training, camps, conferences and more</li>
+                    <li>Healthcare / Dental coverage available</li>
+                </ul>
+
+                <p>Apply by sending us an email, or fix something on our site and use your comment in a Pull Request to tell us about you.</p>
+
+         </div><! --/col-lg-8 -->
+
+        <div class="col-lg-4">
+            <h4>Our Info</h4>
+            <div class="hline"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+                <p>
+                    Email: {{ site.email }}
+                    {% if site.tel %}<br/>Tel: {{ site.tel }}{% endif %}
+                </p>
+                <p>We help you create amazing digital products.</p>
+        </div>
+    </div><! --/row -->
+</div><! --/container -->
